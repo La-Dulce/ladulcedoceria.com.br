@@ -278,7 +278,7 @@ h2 {
   text-align: center;
 }
 .coffee-text a {
-  color: #3c0e0e;
+  color: #c54b69;
   font-weight: 600;
   font-size: 1em;
   margin: 1em;
@@ -392,7 +392,7 @@ h2 {
 }
 
 .croissant-content h1 {
-  color: #4d1d1d;
+  color: #c54b69;
   font-size: 5em;
   font-weight: bold;
   position: relative;
@@ -407,19 +407,19 @@ h2 {
   bottom: 10px;
 }
 .croissant-content h2 {
-  color: #4d1d1d;
+  color: #c54b69;
   font-size: 2.5em;
   margin-bottom: 0.5em;
 }
 .croissant-content p {
-  color: #4d1d1d;
+  color: #c54b69;
   font-size: 1em;
   font-weight: 400;
   margin-bottom: 0.1em;
   max-width: 30ch;
 }
 .croissant-content a {
-  color: #4d1d1d;
+  color: #c54b69;
   font-size: 1em;
   font-weight: bold;
 }
@@ -485,10 +485,10 @@ h2 {
   margin-bottom: 6em;
   background-image: linear-gradient(
     to right top,
-    #541511,
-    #7c3f39,
-    #a46a64,
-    #cb9793,
+    #c54b69,
+    #d27880,
+    #de948f,
+    #e9b0a6,
     #f3c7c4
   );
   border-radius: 3em;
@@ -571,11 +571,11 @@ h2 {
   padding: 0em 4em;
 }
 .about-us-content .about-us-text p {
-  color: #4d1d1d;
+  color: #c54b69;
   font-size: 1.25em;
 }
 .about-us-content .about-us-text h1 {
-  color: #4d1d1d;
+  color: #c54b69;
   font-size: 3em;
   font-weight: bold;
   line-height: 1;
@@ -585,20 +585,20 @@ h2 {
   padding: 0em 4em;
 }
 .about-us-description .description-paragraph {
-  color: #4d1d1d;
+  color: #c54b69;
   font-weight: bold;
   font-size: 1em;
   margin-bottom: 1em;
 }
 .about-us-description .second-description-paragraph {
   max-width: 35ch;
-  color: #4d1d1d;
+  color: #c54b69;
   font-size: 1em;
   margin-bottom: 1em;
 }
 .about-us-description .third-description-paragraph {
   max-width: 35ch;
-  color: #4d1d1d;
+  color: #c54b69;
   font-size: 1em;
 }
 
@@ -623,7 +623,7 @@ h2 {
     padding: 0 1em;
   }
   .about-us-description .description-paragraph {
-    color: #4d1d1d;
+    color: #c54b69;
     font-weight: bold;
     font-size: 1em;
     margin-bottom: 1em;
@@ -631,7 +631,7 @@ h2 {
   }
   .about-us-description .second-description-paragraph {
     max-width: 35ch;
-    color: #4d1d1d;
+    color: #c54b69;
     font-size: 1em;
     margin-bottom: 1em;
   }
@@ -654,8 +654,8 @@ h2 {
 .contact-content .contact-info {
   padding: 2em 2em;
   border-radius: 40px 0px 0px 40px;
-  background: #541611;
-  background: linear-gradient(225deg, #541611, #f3c7c4);
+  background: #c54b69;
+  background: linear-gradient(225deg, #c54b69, #f3c7c4);
 }
 .contact-content .contact-info h1 {
   font-size: 5em;
@@ -687,7 +687,7 @@ h2 {
   max-width: 30ch;
 }
 .contact-content .contact-info a {
-  color: #3c0e0e;
+  color: #c54b69;
   font-size: 1em;
   font-weight: 700;
   margin-top: 2em;
@@ -703,7 +703,7 @@ h2 {
   padding: 2em 2em;
   border-radius: 0px 40px 40px 0px;
   background: #ffffff;
-  background: linear-gradient(45deg, #ffffff, #8f433e);
+  background: linear-gradient(45deg, #ffffff, #c54b69);
 }
 .contact-content .contact-place h1 {
   color: #fff;
@@ -867,7 +867,7 @@ h2 {
   margin-top: 3em;
 }
 .footer .info-footer p {
-  color: #3c0e0e;
+  color: #c54b69;
   font-weight: 300;
   max-width: 30ch;
 }
@@ -888,7 +888,7 @@ h2 {
   margin-top: 3em;
 }
 .links-footer a {
-  color: #3c0e0e;
+  color: #c54b69;
   font-weight: 300;
 }
 .links-footer ul {
@@ -901,7 +901,7 @@ h2 {
   margin-top: 3em;
 }
 .institucional-footer p {
-  color: #3c0e0e;
+  color: #c54b69;
   font-weight: 300;
 }
 .institucional-footer ul {
@@ -910,7 +910,7 @@ h2 {
   gap: 2px;
 }
 .institucional-footer a {
-  color: #3c0e0e;
+  color: #c54b69;
   font-weight: 300;
 }
 
