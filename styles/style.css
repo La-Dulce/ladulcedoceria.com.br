@@ -59,7 +59,7 @@ h2 {
   gap: 30px;
 }
 .logo-menu a {
-  color: #3c0e0e;
+  color: #c54b69;
   font-size: 1.25em;
   font-weight: 500;
   text-shadow: -1px 6px 6px rgba(0, 0, 0, 0.2);
@@ -142,7 +142,7 @@ h2 {
   height: 3px;
   border-radius: 2px;
   margin: 5px auto;
-  background-color: #000;
+  background-color: #fff;
   transition: all 0.3s ease-in-out;
 }
 
@@ -171,7 +171,7 @@ h2 {
     right: -100%;
     top: 85px;
     border-radius: 0px 0px 10px 10px;
-    background-color: #3c0e0e;
+    background-color: #c54b69;
     text-align: center;
     width: 100%;
     transition: 0.3s;
@@ -179,6 +179,9 @@ h2 {
   }
   .mobile-menu-items a {
     color: #fff;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.5);
   }
   .mobile-menu-items.active {
     right: 0;
@@ -192,39 +195,39 @@ h2 {
   .info {
     padding-left: 1em;
   }
+
   .info .info-sub {
-    font-size: 1.5em;
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
+
   .info .info-title {
-    font-size: 2em;
-    max-width: 5ch;
+    font-size: 3em;
+    max-width: 200px;
   }
+
   .info .info-paragraph {
     font-size: 1em;
-    max-width: 16ch;
-  }
-  .delivery-btn {
-    color: #fff;
-    background-color: #431b1b;
-    border: none;
-    font-size: 0.938em;
-    padding: 10px 20px;
-    border-radius: 60px;
-    font-weight: 400;
-    cursor: pointer;
-    box-shadow: 0px 19px 11px -7px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .logo {
     width: 100vw;
-    margin-left: -1em;
+    margin-left: -0.5em;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
   .logo img {
-    width: 117px;
-    height: 104px;
+    width: 100px;
+    height: 100px;
   }
+
   .logo h2 {
     font-weight: bold;
     margin-left: -1em;
@@ -528,8 +531,8 @@ h2 {
 
 @media (max-width: 420px) {
   .coffee-bags {
-    width: 90%;
-    margin: 0 auto;
+    width: 95%;
+    margin: 2em auto;
   }
   .coffee-bags img {
     display: none;
@@ -617,7 +620,7 @@ h2 {
     padding: 0em 1em;
   }
   .about-us-content .about-us-text h1 {
-    font-size: 2em;
+    font-size: 1em;
   }
   .about-us-description {
     padding: 0 1em;
@@ -637,7 +640,7 @@ h2 {
   }
   .about-us-description .third-description-paragraph {
     max-width: 35ch;
-    color: #4d1d1d;
+    color: #c54b69;
     font-size: 1em;
     margin-bottom: 3em;
   }
@@ -790,7 +793,7 @@ h2 {
     max-width: 30ch;
   }
   .contact-content .contact-info a {
-    color: #3c0e0e;
+    color: #c54b69;
     font-size: 1em;
     font-weight: 700;
     margin-top: 2em;
@@ -802,9 +805,7 @@ h2 {
     left: 12em;
   }
   .contact-content .contact-info .contact-img img {
-    max-width: fit-content;
-    width: 165px;
-    height: 137px;
+    display: none;
   }
   .contact-content .contact-place {
     padding: 2em 2em;

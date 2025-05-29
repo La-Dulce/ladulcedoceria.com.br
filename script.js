@@ -23,3 +23,12 @@ button.addEventListener("click", () => {
   button.classList.toggle("active");
   navMenu.classList.toggle("active");
 });
+
+
+const deliveryButtons = document.querySelectorAll(".delivery-btn, .drink-btn, .coffee-delivery-btn");
+
+deliveryButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    window.open("https://linktr.ee/docerialadulce", "_blank");
+  });
+});
