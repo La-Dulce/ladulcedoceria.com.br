@@ -238,6 +238,7 @@ h2 {
     z-index: -999;
   }
 }
+
 .coffee {
   margin-top: 3em;
   position: relative;
@@ -920,6 +921,453 @@ h2 {
     width: 90%;
     margin: 4em auto;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 320px) {
+  .mobile-nav {
+    width: 100svw;
+    display: block;
+  }
+
+  .info .info-title {
+    font-size: 2.5em;
+    max-width: 180px;
+  }
+
+  .info .info-paragraph {
+    font-size: 0.9em;
+    max-width: 250px;
+  }
+
+  .about-us-content .about-us-text h1 {
+    font-size: 0.9em;
+  }
+
+  .croissant-content h1 {
+    font-size: 2em;
+  }
+
+  .contact-content .contact-info h1 {
+    font-size: 3.5em;
+  }
+
+  .coffee-text h1 {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .mobile-nav {
+    width: 100svw;
+    display: block;
+  }
+
+  .info .info-title {
+    font-size: 2.7em;
+    max-width: 190px;
+  }
+
+  .info .info-paragraph {
+    font-size: 0.95em;
+    max-width: 270px;
+  }
+
+  .about-us-content .about-us-text h1 {
+    font-size: 0.95em;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .mobile-nav {
+    width: 100svw;
+    display: block;
+  }
+
+  .info .info-title {
+    font-size: 3em;
+    max-width: 200px;
+  }
+
+  .info .info-paragraph {
+    font-size: 1em;
+    max-width: 300px;
+  }
+
+  .about-us-content .about-us-text h1 {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 425px) {
+  .mobile-nav h2 {
+    font-size: 1em;
+  }
+
+  .mobile-btn {
+    display: block;
+  }
+
+  .mobile-btn.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .mobile-btn.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .mobile-btn.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .mobile-menu-items {
+    position: fixed;
+    right: -100%;
+    top: 85px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #c54b69;
+    text-align: center;
+    width: 100%;
+    transition: 0.3s;
+    padding: 1em 0em;
+  }
+
+  .mobile-menu-items a {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.5);
+  }
+
+  .mobile-menu-items.active {
+    right: 0;
+  }
+
+  .logo-menu {
+    display: none;
+  }
+
+  .logo-menu-right {
+    display: none;
+  }
+
+  .info {
+    padding-left: 1em;
+  }
+
+  .info .info-sub {
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .info .info-paragraph {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logo {
+    width: 100vw;
+    margin-left: -0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .logo h2 {
+    font-weight: bold;
+    margin-left: -1em;
+  }
+
+  .mobile-img {
+    position: absolute;
+    right: 0;
+    z-index: -999;
+  }
+
+  .coffee-drinks {
+    flex-direction: column;
+  }
+
+  .coffee {
+    background-image: none;
+  }
+
+  .drink {
+    width: 90%;
+    margin: 2em auto;
+  }
+
+  .croissants-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .croissant-content p {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .croissant-content h2 {
+    display: none;
+  }
+
+  .croissant-content h1 {
+    font-size: 2.25em;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .croissant-content h1::after {
+    content: '';
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    bottom: -10px;
+  }
+
+  .croissant-content .croissant-price {
+    display: none;
+  }
+
+  .croissant-img {
+    width: 90%;
+  }
+
+  .coffee-bags {
+    width: 95%;
+    margin: 2em auto;
+  }
+
+  .coffee-bags img {
+    display: none;
+  }
+
+  .coffee-bags .coffee-delivery-btn {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .delivery-content {
+    padding: 0em;
+  }
+
+  .coffee-text {
+    place-items: center !important;
+    margin-right: 0.8em;
+  }
+
+  .coffee-text h1 {
+    font-size: 2.25em;
+    max-width: 11ch;
+  }
+
+  .coffee-text p {
+    max-width: 20ch;
+  }
+
+  .about-us {
+    margin-top: 1em;
+  }
+
+  .about-us-content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .about-us-content .about-us-text {
+    padding: 0em 1em;
+  }
+
+  .about-us-description {
+    padding: 0 1em;
+  }
+
+  .about-us-description .description-paragraph {
+    color: #c54b69;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+
+  .about-us-description .second-description-paragraph {
+    max-width: 35ch;
+    color: #c54b69;
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+
+  .about-us-description .third-description-paragraph {
+    max-width: 35ch;
+    color: #c54b69;
+    font-size: 1em;
+    margin-bottom: 3em;
+  }
+
+  .find-us {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .contact-content .contact-info {
+    padding: 2em 2em;
+    border-radius: 40px 40px 0px 0px;
+    background: #541611;
+    background: linear-gradient(225deg, #541611, #f3c7c4);
+  }
+
+  .contact-content .contact-info .contact-img img {
+    display: none;
+  }
+
+  .contact-content .contact-place {
+    padding: 2em 2em;
+    border-radius: 0px 0px 40px 40px;
+    background: #ffffff;
+    background: linear-gradient(45deg, #ffffff, #8f433e);
+  }
+
+  .contact-content .contact-place .address {
+    margin-bottom: 2.5em;
+  }
+
+  .footer {
+    width: 90%;
+    margin: 4em auto;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .mobile-nav {
+    width: 100svw;
+    display: block;
+  }
+
+  .mobile-btn {
+    display: block;
+  }
+
+  .logo-menu {
+    display: none;
+  }
+
+  .logo-menu-right {
+    display: none;
+  }
+
+  .img-header {
+    width: 600px;
+  }
+
+  .info .info-title {
+    font-size: 4em;
+  }
+
+  .info .info-paragraph {
+    font-size: 1.1em;
+  }
+
+  .coffee-drinks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .drink {
+    width: 70%;
+  }
+
+  .croissants-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2em;
+  }
+
+  .croissant-content p,
+  .croissant-content a {
+    margin: 1em auto;
+    display: block;
+  }
+
+  .about-us-content {
+    grid-template-columns: 1fr;
+    padding: 10em 0;
+  }
+
+  .about-us-content .about-us-text {
+    margin-bottom: 3em;
+  }
+
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-content .contact-info {
+    border-radius: 40px 40px 0px 0px;
+  }
+
+  .contact-content .contact-place {
+    border-radius: 0px 0px 40px 40px;
+  }
+
+  .contact-content .contact-info .contact-img {
+    position: static;
+    margin: 2em 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 2em;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .img-header {
+    width: 650px;
+  }
+
+  .coffee-drinks {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+  }
+
+  .about-us-content {
+    padding: 15em 0;
+  }
+
+  .about-us-content .about-us-text h1 {
+    font-size: 2.5em;
+  }
+
+  .contact-content .contact-info .contact-img {
+    top: -20em;
+    left: 10em;
   }
 }
 
