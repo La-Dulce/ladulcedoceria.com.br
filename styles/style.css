@@ -659,7 +659,7 @@ h2 {
   padding: 2em 2em;
   border-radius: 40px 0px 0px 40px;
   background: #c54b69;
-  background: linear-gradient(225deg, #c54b69, #f3c7c4);
+  background: linear-gradient(225deg, #c54b69, #f7bfbb);
 }
 .contact-content .contact-info h1 {
   font-size: 5em;
@@ -707,7 +707,7 @@ h2 {
   padding: 2em 2em;
   border-radius: 0px 40px 40px 0px;
   background: #ffffff;
-  background: linear-gradient(45deg, #ffffff, #c54b69);
+  background: linear-gradient(45deg, #f1b8b8, #c54b69);
 }
 .contact-content .contact-place h1 {
   color: #fff;
@@ -729,7 +729,7 @@ h2 {
 .contact-content .contact-place .address-p {
   max-width: 25ch;
   margin-top: 1.5em;
-  margin-left: 1.3em;
+  margin-left: 1em;
   color: #fff;
   font-size: 1em;
   font-weight: 200;
@@ -804,6 +804,7 @@ h2 {
     position: absolute;
     top: 17em;
     left: 12em;
+    z-index: -9;
   }
   .contact-content .contact-info .contact-img img {
     display: none;
@@ -834,7 +835,7 @@ h2 {
   .contact-content .contact-place .address-p {
     max-width: 25ch;
     margin-top: 1.5em;
-    margin-left: 1.3em;
+    margin-left: 1em;
     color: #fff;
     font-size: 1em;
     font-weight: 200;
